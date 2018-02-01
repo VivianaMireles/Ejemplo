@@ -1,0 +1,580 @@
+/*estilos comunes*/
+.align.center{
+  text-align: center;
+}
+
+.fondoNaranja{
+  background-color: #EA441D;
+}
+
+/*prueba*/
+
+.tapaLibro img{
+  width: 210px;
+}
+
+.generos ul{
+  margin-bottom: 0px;
+}
+
+/*index*/
+#jumbotron .btn{
+  border: white;
+  width: 146px;
+  -webkit-box-shadow: 0px 0px 18px 1px rgba(107,107,107,1);
+  -moz-box-shadow: 0px 0px 18px 1px rgba(107,107,107,1);
+  box-shadow: 0px 0px 18px 1px rgba(107,107,107,1);
+}
+
+#jumbotron .btn:hover{
+  background-color: #EA441D;
+}
+
+#txtInformativo{
+  margin: 30px 40px;
+}
+
+#txtInformativo h1{
+  margin: 70px 0px;
+}
+
+
+#txtInformativo p{
+  font-size: 18px;
+}
+
+#librosMasVistos{
+  margin: 40px 0px;
+}
+
+#librosMasVistos .textCenter{
+  text-align: center;
+}
+
+#librosMasVistos h1{
+  margin: 0px 0px 50px 0px;
+}
+
+#precio p{
+  font-size: 40px;
+}
+
+.negritas{
+  font-weight: bold !important;
+}
+
+#precio .btn{
+  width: 390px;
+  border: none;
+  font-size: 24px;
+  -webkit-box-shadow: 0px 0px 18px 1px rgba(107,107,107,1);
+  -moz-box-shadow: 0px 0px 18px 1px rgba(107,107,107,1);
+  box-shadow: 0px 0px 18px 1px rgba(107,107,107,1);
+}
+
+#precio .btn:hover{
+  background-color: #EA441D;
+}
+
+#precio{
+  margin: 0px;
+}
+
+.txtBlanco{
+  color: white;
+}
+
+.txtNaranja{
+  color: #EA441D;
+}
+
+a.txtNaranja:hover, a.txtNaranja:focus
+{
+  color: #EA441D;
+  font-weight: bold;
+}
+
+.navbar
+{
+  margin: 0px;
+}
+
+.form-inline
+{
+  text-align: right;
+  margin: 10px;
+}
+
+.btn-dark-borderWhite
+{
+  border: 1px solid white;
+  color: white;
+  margin: 0px 6px;
+  width: 160px;
+}
+
+#librosVistos
+{
+  margin-bottom: 30px;
+}
+
+.btn.btn-default-orange
+{
+  background-color: #EA441D;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/*modal*/
+
+#modalSesion .modal-content .fa-facebook-official
+{
+  color: white;
+  margin-right: 20px;
+}
+
+#modalSesion .modal-content .google
+{
+  margin-right: 20px;
+}
+
+.btn.btn-dark-borderWhite:hover, .btn.btn-dark-borderWhite:focus
+{
+  color: white;
+  font-weight: none !important;
+}
+
+#modalSesion .modal-dialog
+{
+  margin:80px auto;
+}
+
+#modalSesion .modal-body
+{
+  width: 88%;
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 40px;
+}
+
+.btn.btn-default-blue
+{
+  background: #3954A1;
+  color: white;
+  width: 95%;
+  text-align: left;
+  margin: 6px 10px;
+  font-weight: bold;
+}
+
+.btn.btn-default-white
+{
+  background: white;
+  border: 1px solid gray;
+  color: gray;
+  width: 95%;
+  text-align: left;
+  margin: 6px 10px;
+  font-weight: bold;
+}
+
+.btnCuenta.disabled, .btnCuenta[disabled], fieldset[disabled] .btnCuenta{
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*footer*/
+.appGoogle{
+  width: 100px;
+}
+
+.portada.background{
+  background-image: url("../img/imgJumbotron.png");
+  background-size:cover;
+  height: 500px;
+}
+
+.logoTerabook{
+  width: 454px;
+}
+
+.lead{
+  color: white;
+  font-size: 26px;
+  text-shadow: -4px 5px 4px #000;
+}
+
+.redesSociales
+{
+  margin-top:30px;
+}
+
+footer
+{
+  background: #ECEAEB;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: #515151;
+}
+
+.fa-twitter
+{
+  color: #2DAAE2;
+}
+
+.fa-facebook-official
+{
+  color: #3954A1;
+}
+
+.txtFijo
+{
+  margin: 0px;
+  cursor: default;
+}
+
+
+footer a ,.fa-facebook-official, .fa-twitter, .instagram, .appGoogle{
+  cursor: pointer;
+  cursor: hand;
+}
+
+a
+{
+  color: #515151;
+  cursor: default;
+}
+
+a:hover, a:focus
+{
+  color: #EA441D;
+  text-decoration: none;
+}
+
+/*index*/
+
+#inicioSecion.row{
+  margin: 0px !important;
+}
+
+#inicioSecion .col-sm-10
+{
+  padding-right: 0px;
+  width: 82.333333%;
+}
+
+.portadaBaja.background{
+  background-image: url("../img/biblioteca.png");
+  background-size:cover;
+  height: 500px;
+}
+
+#precio .container{
+  padding-top: 96px
+}
+
+/*terminos y condiciones*/
+
+#terminosYCondiciones .logoTerabook, #politicasYPrivacidad .logoTerabook,
+#acercaDeNosotros .logoTerabook{
+  display: block;
+  width: 42%;
+  margin: 100px auto 0px auto;
+}
+
+#portadaInde.portada.background
+{
+  background-image: url("../img/biblioteca.png");
+}
+
+table{
+  width: 94%;
+  margin: 44px auto;
+}
+
+table th{
+    width: 120px;
+    text-align: center;
+}
+
+table th,td{
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+th, td {
+    padding: 16px;
+}
+
+#politicasYPrivacidad h1, #terminosYCondiciones h1, #acercaDeNosotros h1{
+  margin: 66px 0px;
+}
+
+#acercaDeNosotros .img-thumbnail{
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+#acercaDeNosotros .img-circle{
+  height: 187px;
+  margin-right: 20px;
+  display: block;
+  border: 1px solid black;
+}
+
+#acercaDeNosotros .contenidoTxt .col-sm-6{
+  display: inline-flex;
+  flex-direction: row;
+}
+
+#acercaDeNosotros .contenidoTxt .col-sm-4,
+#acercaDeNosotros .contenidoTxt .col-sm-6{
+  padding: 20px;
+}
+
+#acercaDeNosotros .container.info{
+  padding-bottom: 140px;
+}
+
+#acercaDeNosotros .contenidoTxt{
+  margin-bottom: 50%;
+  margin-top: 44px;
+}
+
+
+/*read*/
+#read .headerRead{
+  display: inline-flex;
+  width: 100%;
+  position: relative;
+  height: 100px;
+}
+
+#read .logo{
+  position: absolute;
+  padding: 14px 0px 14px 20px;
+}
+
+#read .logoTerabook{
+  max-width: 162px;
+}
+
+#read .tituloLibroRead{
+  margin: 0 auto;
+}
+
+#read .tituloLibroRead h3{
+  margin: 40px 0px;
+}
+
+#read .opcinesRead{
+  position: absolute;
+  right: 0;
+  margin: 32px 20px 32px 0px;
+}
+/**/
+
+/*cierra tabla*/
+
+@media screen and (max-width: 990px)
+{
+
+  .background{
+    height: 384px;
+  }
+
+  #txtInformativo{
+    margin: 10px 40px;
+  }
+
+  #txtInformativo h1{
+    margin: 40px 0px;
+  }
+
+  #txtInformativo .col-sm-12 p{
+      width: 60%;
+      margin: 0 auto;
+  }
+
+  #librosMasVistos .contenidoTxt .col-sm-6{
+      margin: 0 auto;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 760px)
+{
+  .logoTerabook{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+
+  .background{
+    height: 336px;
+  }
+
+  #jumbotron p{
+    text-align: center;
+    text-shadow: -4px 5px 4px #000;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  #jumbotron .btn{
+    display: block;
+    margin: auto;
+  }
+
+  #librosMasVistos .col-sm-6{
+      width: 30%;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  #precio p{
+    font-size: 26px;
+  }
+
+  #precio .btn{
+    width: 220px;
+  }
+
+  #precio .container{
+    padding-top: 74px;
+  }
+
+  #portada.portada.background{
+    height: 322px;
+  }
+
+  .portadaBaja.background{
+    height: 400px;
+  }
+
+  /*terminos y condiciones*/
+  #portadaInde.portada.background {
+    height: 379px;
+  }
+
+  #terminosYCondiciones .logoTerabook, #politicasYPrivacidad .logoTerabook,
+  #acercaDeNosotros .logoTerabook{
+    margin: 60px auto 0px auto;
+    width: 300px;
+  }
+
+  /*acerca de*/
+  #acercaDeNosotros .contenidoTxt{
+    margin-bottom: 0px;
+  }
+
+  #acercaDeNosotros .contenidoTxt .col-sm-6{
+    display: block;
+  }
+
+  #acercaDeNosotros .img-circle{
+    margin: 0 auto;
+    height: 300px;
+  }
+
+  /**/
+  footer p{
+    text-align: center;
+  }
+
+  footer .redesSociales{
+    width: 328px;
+    margin: 0 auto;
+  }
+
+  footer .redesSociales .row{
+    margin: 0;
+    display: inline-flex;
+  }
+
+}
+
+
+@media screen and (max-width: 390px) {
+
+  #txtInformativo{
+    margin: 0;
+  }
+
+  #txtInformativo h1, #librosMasVistos h1{
+    margin: 20px 0;
+    font-size: 25px;
+  }
+
+  #txtInformativo p{
+    font-size: 12px;
+  }
+
+  #precio .container{
+    padding-top: 100px;
+  }
+
+  #precio .container p{
+    font-size: 22px
+  }
+
+  #portada.portada.background{
+    height: 360px;
+  }
+
+  /*terminos y condiciones*/
+  #portadaInde.portada.background{
+    height: 260px;
+  }
+
+  #terminosYCondiciones .logoTeraboo, #politicasYPrivacidad.logoTerabook{
+    margin: 38px auto 0px auto;
+    width: 160px;
+  }
+  /**/
+
+  /*politicas*/
+  #terminosYCondiciones .logoTerabook, #politicasYPrivacidad .logoTerabook,
+  #acercaDeNosotros .logoTerabook{
+    width: 210px;
+    margin: 30px auto 0px auto;
+  }
+
+  /**/
+
+  /*acerca de nosotros*/
+  #acercaDeNosotros .img-circle{
+    margin: 0 auto;
+    height: 240px;
+  }
+
+  #politicasYPrivacidad h1,
+  #terminosYCondiciones h1,
+  #acercaDeNosotros h1{
+    margin: 40px 0px;
+  }
+  /**/
+
+  footer .redesSociales{
+    width: auto;
+    margin-top: 30px;
+  }
+
+  footer .redesSociales .row{
+    display: block;
+  }
+
+  footer .row .col-sm-2{
+    width: 62px;
+    float: left;
+  }
+
+  footer .row .col-sm-6
+  {
+    margin: 44px auto 0px auto;
+    width: 132px;
+  }
+}
